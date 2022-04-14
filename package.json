@@ -1,0 +1,83 @@
+{
+  "name": "checkmate_web_admin",
+  "private": true,
+  "description": "CheckMate Admin dashboard based on nextjs with @paljs/ui component package",
+  "version": "1.0.0",
+  "author": "Ahmed Elywa",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "29.2.0",
+    "@ckeditor/ckeditor5-react": "3.0.2",
+    "@devexpress/dx-react-core": "^3.0.0",
+    "@devexpress/dx-react-scheduler": "^3.0.0",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.0",
+    "@mui/lab": "^5.0.0-alpha.67",
+    "@mui/material": "^5.3.0",
+    "@mui/styled-engine-sc": "^5.3.0",
+    "@mui/x-data-grid": "^5.3.0",
+    "@paljs/icons": "1.0.5",
+    "@paljs/ui": "1.1.1",
+    "@tensorflow/tfjs": "^3.14.0",
+    "@tinymce/tinymce-react": "3.12.6",
+    "apexcharts": "^3.35.0",
+    "babel-plugin-styled-components": "^1.13.2",
+    "date-fns": "^2.28.0",
+    "distinct-colors": "^3.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "next": "12",
+    "next-auth": "^4.1.2",
+    "papaparse": "^5.3.1",
+    "react": "^17.0.2",
+    "react-apexcharts": "^1.4.0",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-select": "^5.2.2",
+    "recharts": "^2.1.9",
+    "styled-components": "^5.3.3",
+    "stylis": "^4.0.13",
+    "swr": "^1.1.2",
+    "unfetch": "^4.2.0"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "styled",
+    "oah"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start --port ${PORT-3000}",
+    "export": "yarn build && next export -o _static",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paljs/nextjs-admin-template"
+  },
+  "bugs": {
+    "url": "https://github.com/paljs/nextjs-admin-template/issues"
+  },
+  "devDependencies": {
+    "@types/node": "16.7.10",
+    "@types/react": "17.0.19",
+    "@types/react-dom": "17.0.9",
+    "@types/react-select": "4.0.17",
+    "@types/styled-components": "5.1.13",
+    "@typescript-eslint/eslint-plugin": "4.30.0",
+    "@typescript-eslint/parser": "4.30.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.25.1",
+    "husky": "7.0.2",
+    "prettier": "2.3.2",
+    "pretty-quick": "3.1.1",
+    "react-live": "2.3.0",
+    "typescript": "4.4.2"
+  }
+}

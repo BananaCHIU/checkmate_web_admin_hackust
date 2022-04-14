@@ -1,0 +1,1 @@
+'{"checkin_id":"e0b58410-013a-44e5-a3e0-67d7354588e6","checkin_time":"2022-01-15T13:32:35.000Z","user_id":"291dc4ac-47e7-457c-b95a-b1c89c66299a","status":"Success","remark":""},{"checkin_id":"e88e7c0d-232a-418b-95fb-638d920b37b5","checkin_time":"2022-01-17T07:38:33.000Z","user_id":"291dc4ac-47e7-457c-b95a-b1c89c66299a","status":"Late","remark":""}'
